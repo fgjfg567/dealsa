@@ -8,3 +8,4 @@ DEFAULT_AFFILIATE_TAG = ""
 
 APP_NAME = "مساعد التسوق"
 DISCLOSURE = "بصفتنا شريكاً في برنامج عمولة أمازون، قد نحصل على عمولة من المشتريات المؤهلة دون أي تكلفة إضافية عليك."
+https://deals-c4c17-default-rtdb.firebaseio.com/
