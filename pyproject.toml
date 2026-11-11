@@ -11,7 +11,7 @@ dependencies = [
 
 [tool.flet]
 # مهم: اسم الحزمة (org + اسم المشروع) لا يمكن تغييره بعد النشر على Google Play. غيّر org إلى اسم خاص بك الآن.
-org = "com.yourname"
+org = "com.smart"
 product = "Shopping Assistant"
 company = "YourName"
 copyright = ""
