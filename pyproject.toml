@@ -1,0 +1,23 @@
+[project]
+name = "shopping-assistant"
+version = "1.0.0"
+description = "Shopping assistant"
+requires-python = ">=3.10"
+dependencies = [
+  "flet==0.28.3",
+  "requests",
+  "beautifulsoup4",
+]
+
+[tool.flet]
+# مهم: اسم الحزمة (org + اسم المشروع) لا يمكن تغييره بعد النشر على Google Play. غيّر org إلى اسم خاص بك الآن.
+org = "com.yourname"
+product = "Shopping Assistant"
+company = "YourName"
+copyright = ""
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true
